@@ -6,7 +6,8 @@ Githib command files:
 
 Console links:
  - Db2 Warehouse console:  https://ibm.biz/db2w-console-tx24-lab4157
- - watsonx.data console:  https://ibm.biz/wxd-console-tx24-lab4157
+ - IBM Cloud Auth for wxd: https://ibm.biz/wxd-tx-emea-auth
+   - watsonx.data console:   https://ibm.biz/wxd-console-tx24-lab4157
  - Netezza console:        https://ibm.biz/nps-console-tx24-lab4157
 
 Download commands to local file:
