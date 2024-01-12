@@ -11,6 +11,6 @@ Console links:
 
 Download commands to local file:
  - Db2 commands:     `wget https://ibm.biz/db2w-cmds-tx24-lab4157 -O lab4157-db2cmds.sql`
-   | raw url: https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-db2cmds.sql?token=GHSAT0AAAAAACMTTRZJVOCDKBE265Z3TVBCZNBF7XA
+   > raw url: https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-db2cmds.sql?token=GHSAT0AAAAAACMTTRZJVOCDKBE265Z3TVBCZNBF7XA
  - Netezza commands: `wget https://ibm.biz/nps-cmds-tx24-lab4157 -O lab4157-nzcmds.sql`
-   | raw url: https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-nzcmds.sql?token=GHSAT0AAAAAACMTTRZIWDBAG5HVXPC7BSY2ZNBGCYA
+   > raw url: https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-nzcmds.sql?token=GHSAT0AAAAAACMTTRZIWDBAG5HVXPC7BSY2ZNBGCYA
