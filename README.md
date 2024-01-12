@@ -11,5 +11,6 @@ Console links:
 
 Raw link to commands (needed for wget):
  - Db2 commands:     https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-db2cmds.sql?token=GHSAT0AAAAAACMTTRZJVOCDKBE265Z3TVBCZNBF7XA
+   - short url: https://ibm.biz/db2w-cmds-tx24-lab4157
  - Netezza commands: https://raw.githubusercontent.com/daniel-hancock33/tx-lab4157/main/lab4157-nzcmds.sql?token=GHSAT0AAAAAACMTTRZIWDBAG5HVXPC7BSY2ZNBGCYA
-
+   - short url: https://ibm.biz/nps-cmds-tx24-lab4157 
