@@ -6,7 +6,7 @@ Command files:
 
 Console links:
  - Db2 Warehouse console:  https://ibm.biz/db2w-console-tx24-lab4157
- - watsonx.datat console:  https://ibm.biz/wxd-console-tx24-lab4157
+ - watsonx.data console:  https://ibm.biz/wxd-console-tx24-lab4157
  - Netezza console:        https://ibm.biz/nps-console-tx24-lab4157
 
 
