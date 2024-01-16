@@ -58,3 +58,30 @@ from "DB4157_XX"."U4157_XX"."LINEITEM_ARCHIVE" ORDER BY 1;
 
 SELECT DISTINCT DATE_PART('YEAR', "O_ORDERDATE")
 from "DB4157_XX"."U4157_XX"."ORDERS_ARCHIVE" ORDER BY 1;
+
+--
+-- Netezza/Iceberg Query 07 – select data from an iceberg table
+--
+SELECT
+  *
+FROM
+  "WXD_ICEBERG_4157"."U4157_WXDSHARE"."LINEITEM_HISTORY"
+LIMIT
+  10;
+
+--
+-- Netezza/Iceberg Query 08 – join from Netezza and watsonx.data/iceberg table
+--
+SELECT
+  (
+    SELECT
+      COUNT(*)
+    FROM "WXD_ICEBERG_4157"."U4157_WXDSHARE"."LINEITEM_HISTORY" -- watsonx.data table
+  ) + (
+    SELECT
+      COUNT(*)
+    FROM
+      "DB4157_SHARE"."U4157_SHARE"."LINEITEM" -- local Netezza table
+  ) AS total_count
+;  
+
