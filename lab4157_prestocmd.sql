@@ -8,7 +8,7 @@ FROM
 LIMIT
   10;
 --
--- Apache Presto SQL 01 – select 10 rows from Netezza's orders_archive table
+-- Apache Presto SQL 02 – select 10 rows from Netezza's orders_archive table
 --
 SELECT
   *
@@ -17,7 +17,7 @@ FROM
 LIMIT
   10;
 --
--- Apache Presto SQL 02 –  archive the rows from Netezza's lineitem_archive table
+-- Apache Presto SQL 03 – archive the rows from Netezza's lineitem_archive table
 --
 create table "iceberg_data"."u4157_xx"."lineitem_history"
 (
